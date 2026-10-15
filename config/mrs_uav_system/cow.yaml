@@ -1,0 +1,10 @@
+# Motor thrust curve parameters
+# a - quadratic term
+# b - constant term
+# n_motors - number of motors on the UAV
+
+# cow quadcopter (12S); a and b are copied from x500_mn5006_6S until the cow's motors and props are measured
+motor_params:
+  a: 0.245741
+  b: -0.155700
+  n_motors: 4
